@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("idx3.jpg");
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+     color: red;
+    transition: all 0.4s ease 0s;
+}
+.headings{
+    color: lightseagreen;
+    margin: 80px auto;
+    font-size: 40px;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    padding: 0px 100px;
+    line-height: 75px;
+    background-image: linear-gradient(black,#012733);
+}
+nav .logo p{
+    font-size: 25px;
+    width: 40px;
+    height: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: white;
+    float: left;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+nav li a{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 18px;
+}
+nav li a:hover{
+    color:aqua;
+    transition: all 0.4s ease 0s;
+}
+nav .wlline{
+    width: 100%;
+    height: 10px;
+    margin: 100px 0px;
+}
+nav .wlline p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px; 
+}
+.container{
+    width: 100%;
+    height: 430px;
+    margin: 0px auto;
+    text-align: left;
+    padding-left: 30px;
+}
+.container h3{
+    color: white;
+}
+.container #line{
+    margin-top: 60px;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: left;
+}
+.user{
+    height: 30px;
+    width: 100px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+    border: 1px solid pink;
+    text-align: center;
+    border-radius: 10%;
+}
+.user a{
+    font-size: 20px;
+    color:aqua;
+}
+.owner a{
+    font-size: 20px;
+    color:aqua;
+    
+}
+.container button{
+    width: 70px;
+    height: 20px;
+}
+.owner{
+    height: 30px;
+    width: 100px;
+    float: left; 
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid pink;
+    border-radius: 10%;
+    text-align: center;
+    color:transparent;
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    margin: 0px auto;
+    background-color:transparent;
+    text-align: center;
+}
+.fcontainer{
+    padding: 20px;
+    color: cyan;
+    flex-wrap: wrap;
+    
+}
+li {
+    display: inline-block;
+    margin: 0 10px;
+    color: aliceblue;
+  }
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 1px;
+    color: aliceblue;
+  }
+  
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#w{
+	color:white;
+}
+#logo{
+	color:aqua;
+}

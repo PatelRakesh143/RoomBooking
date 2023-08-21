@@ -1,0 +1,82 @@
+@charset "UTF-8";*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+
+body {
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+     color: red;
+    transition: all 0.4s ease 0s;
+}
+.headings{
+    color: lightseagreen;
+    margin: 80px auto;
+    font-size: 40px;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    padding: 0px 100px;
+    line-height: 75px;
+    background-image: linear-gradient(black,#012733);
+}
+nav .logo p{
+    font-size: 25px;
+    width: 40px;
+    height: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: white;
+    float: left;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+nav li a{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 18px;
+}
+nav li a:hover{
+    color:aqua;
+    transition: all 0.4s ease 0s;
+}
+nav .wlline{
+    width: 100%;
+    height: 10px;
+    margin: 100px 0px;
+}
+nav .wlline p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px; 
+}
+#logo{
+	color:aqua;
+}
+.btn {
+  background-color: DodgerBlue; 
+  border: none; 
+  color: red; 
+  padding: 12px 12px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}

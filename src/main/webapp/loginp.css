@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+body{
+    background-image: url("upload.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+    width: 400px;
+    height: 450px;
+    margin:50px auto;
+    padding: 20px;
+    border:0.3px solid white;
+    color:aqua;
+	border-radius:3%;
+}
+.login img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 35%;
+}
+.login input{
+    width: 90%;
+    height: 20px;
+    border: none;
+    border-bottom: 2px dotted pink;
+    color:white;
+}
+.login h2{
+    margin: 0px 30%;
+    color:aqua;
+}
+.login input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    margin: 0px 37%;
+    background-color: red;
+}
+.login a{
+    margin: 10%;
+    font-size: 20px;
+    color:pink;
+}
+input{
+	background:transparent;
+	text-color:white;
+}

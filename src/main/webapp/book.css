@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.container{
+    width: 40%;
+    height: 70%;
+    margin: 3% auto;
+    padding: 5%;
+    background-color: antiquewhite;
+    border-radius: 5%;
+}
+h2{
+    text-align: center;
+}
+.container input{
+    width: 90%;
+    height: 30px;
+    border: none;
+}
+.container input[type="submit"]{
+    background-color: blue;
+    color: red;
+}
